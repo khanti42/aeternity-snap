@@ -12,15 +12,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aeternity-snap/sdk@file:../sdk/package.tgz::locator=site%40workspace%3A.":
-  version: 0.0.1
-  resolution: "@aeternity-snap/sdk@file:../sdk/package.tgz::locator=site%40workspace%3A."
+"@aeternity-snap/sdk@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@aeternity-snap/sdk@npm:0.0.5"
   dependencies:
     "@aeternity/aepp-sdk": ^13.2.2
     "@metamask/providers": ^13.1.0
   peerDependencies:
     "@aeternity/aepp-sdk": ^13.2.2
-  checksum: caed47d63db281105e19a274ed2781740ba6ea1ef894d799702628b95e283343e5bc82d11606e9b9caa10eba7849360b0fcd944e90a0aebdc06a94c5dae009b6
+  checksum: 337988e25cb2cd14c363742f274a469a6428a0a2e12c854b36b11f6e13882a1a12a8e33584efa6654eee858b2d6acf48879ba311fd42d353938a71b594416cc4
   languageName: node
   linkType: hard
 
@@ -7146,17 +7146,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.29":
-  version: 8.4.29
-  resolution: "postcss@npm:8.4.29"
-  dependencies:
-    nanoid: ^3.3.6
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
-  languageName: node
-  linkType: hard
-
 "postcss@npm:8.4.31":
   version: 8.4.31
   resolution: "postcss@npm:8.4.31"
@@ -7165,6 +7154,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 1d8611341b073143ad90486fcdfeab49edd243377b1f51834dc4f6d028e82ce5190e4f11bb2633276864503654fb7cab28e67abdc0fbf9d1f88cad4a0ff0beea
+  languageName: node
+  linkType: hard
+
+"postcss@npm:8.4.37":
+  version: 8.4.37
+  resolution: "postcss@npm:8.4.37"
+  dependencies:
+    nanoid: ^3.3.7
+    picocolors: ^1.0.0
+    source-map-js: ^1.2.0
+  checksum: c6b513e1021a336207fde4a1d4f32192503328dad59cc26d46aa731840ced4463b1e8b6098877c1cd42bb9d1c5385980832739f9c183dc47602c06325b28ff57
   languageName: node
   linkType: hard
 
@@ -7738,7 +7738,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "site@workspace:."
   dependencies:
-    "@aeternity-snap/sdk": "file:../sdk/package.tgz"
+    "@aeternity-snap/sdk": ^0.0.5
     "@aeternity/aepp-sdk": ^13.2.2
     "@nextui-org/button": 2.0.18
     "@nextui-org/code": 2.0.16
@@ -7768,7 +7768,7 @@ __metadata:
     next-themes: ^0.2.1
     nextjs-node-loader: ^1.1.5-alpha.0
     node-loader: ^2.0.0
-    postcss: 8.4.29
+    postcss: 8.4.37
     qrcode.react: ^3.1.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -7819,6 +7819,13 @@ __metadata:
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
+  languageName: node
+  linkType: hard
+
+"source-map-js@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "source-map-js@npm:1.2.0"
+  checksum: 791a43306d9223792e84293b00458bf102a8946e7188f3db0e4e22d8d530b5f80a4ce468eb5ec0bf585443ad55ebbd630bf379c98db0b1f317fd902500217f97
   languageName: node
   linkType: hard
 

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Aeternity metamask snap.",
   "proposedName": "Aeternity Wallet",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/4-point-0/aeternity-snap.git"
   },
   "source": {
-    "shasum": "jaUrYq2ZTNTMzqnaFFb6Ng0gb8n/71N6cHWOXOfDNNQ=",
+    "shasum": "xy9qk8J6c2+vempbrEtu/UuwB0ucrvHQkcFqfRuQi3U=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
