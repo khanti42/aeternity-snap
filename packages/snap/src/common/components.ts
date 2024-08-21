@@ -1,5 +1,5 @@
 import { divider, panel, text } from "@metamask/snaps-ui";
-import { TxSpendDto, TextPanel, TxContractCallDto } from "./types";
+import { TextPanel, TxContractCallDto, TxSpendDto } from "./types";
 
 export const labelPanel = (args?: TextPanel) => {
   const { label, value, isCustomValue }: TextPanel = args ?? {};
@@ -41,7 +41,7 @@ export const contractTxPanel = (dto?: TxContractCallDto) => {
             .map((arg) => {
               return typeof arg.value === "string" ||
                 arg.value instanceof String
-                ? arg.value.replace("/n", "")
+                ? arg.value.replace("\n", "")
                 : arg.value;
             })
             .join(",")
